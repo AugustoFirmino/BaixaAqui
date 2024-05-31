@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/download.css">
+    <link rel="stylesheet" href="../../css/styleall.css">
+    <title>Download</title>
+</head>
+<body>
+    
+    <div class="formulario">
+        <h3>Download</h3>
+     <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="download.html" class="btn-active">Downloads</a></li>
+        <li><a href="sobre.html"  >Sobre Nós</a></li>
+        <li><a href="baixados.html">Baixados</a></li>
+        <li><a href="assistir.html" >vizualizar</a></li>
+      
+        <li><a href="login.html">Sair</a></li>
+     </ul>
+
+
+    </div>
+  <div class="body">
+    <div class="info">
+        <p>Pesquise Todos seus arquivos que desejas descarregar para o seu dispositivo aqui</p><br>
+        <input type="text"  class="input-pesquisa" id="pesquisa" placeholder="Pesquisar arquivos..."> <button id="btn-pesquisa" onclick="pesquisar('pesquisa');">Pesquisar</button>
+    </div>
+    <div class="sugestoes">
+        <h3> Nossas sugestões</h3>
+        
+        <br>
+       
+        
+        <div class="itens">
+        <div class="video">
+        <video src="../../assets/videos/Delero King - Tempo Muito (Video Oficial).mp4" id="video1" ></video><br>
+        <p>Delero King - Tempo Muito (Video Oficial)</p><br>
+        <button> <a href="../../assets/videos/Delero King - Tempo Muito (Video Oficial).mp4" download> Baixar Agora</a></button>
+        <button class="btn-play" id="btn1" onclick="playpause('video1','btn1')">Play</button>
+    </div>
+       
+       <div class="video">
+        <video src="../../assets/videos/Button Rose  Toda Tropa  Ft Anderson Mário Vídeo Oficial_1080p.mp4" id="video2"></video><br>
+        <p> Button Rose  Toda Tropa  Ft Anderson Mário Vídeo Oficial.mp4</p><br>
+        <button> <a href="../../assets/videos/Button Rose  Toda Tropa  Ft Anderson Mário Vídeo Oficial_1080p.mp4" download> Baixar Agora</a></button>
+        <button class="btn-play" id="btn2" onclick="playpause('video2','btn2')">Play</button> 
+    </div>
+
+
+       <div class="video">
+        <video src="../../assets/videos/Matias Damásio - A Outra - Video Oficial.mp4" id="video3"></video><br>
+        <p>Matias Damásio - A Outra - Video Oficial.mp4</p><br>
+       
+        <button> <a href="../../assets/videos/Matias Damásio - A Outra - Video Oficial.mp4"  onclick="download"> Baixar Agora</a></button>
+        <button class="btn-play" id="btn3" onclick="playpause('video3','btn3')">Play</button> 
+         
+    </div>
+       </div>
+    </div>
+    <div class="formatos">
+        <h3>Formatos Disponível para Download no seu Dispositivo</h3>
+        <table>
+            <thead>
+                <th>Tipo de Arquivo</th>
+                <th>Data de Publicação</th>
+                <th>Detalhes</th>
+            </thead>
+     
+        <tbody>
+            <tr>
+                <td>MP3</td>
+                <td>12-04-2024</td>
+                <td>Formato utilizado para ouivir musicas nos smartsphones e computadores</td>
+
+            </tr>
+            <tr>
+                <td>MP4</td>
+                <td>05-09-2023</td>
+                <td>Formato utilizado para assistir videos nos smartsphones e computadores</td>
+
+            </tr>
+            <tr>
+                <td>PNJ</td>
+                <td>05-08-2023</td>
+                <td>Formato utilizado para vizualizar imagens nos smartsphones e computadores</td>
+
+            </tr>
+            <tr>
+                <td>JPG</td>
+                <td>05-08-2017</td>
+                <td>Formato utilizado para vizualizar imagens nos smartsphones e computadores</td>
+
+            </tr>
+            <tr>
+                <td>GIF</td>
+                <td>05-08-2016</td>
+                <td>Formato utilizado para vizualizar imagens nos smartsphones e computadores</td>
+
+            </tr>
+    
+        </tbody>
+    </table>
+    </div>
+   
+    <div class="header">
+        <p>Todos Direitos Reservados pela DEV-WEB 2024</p>
+    </div>
+  </div>
+</body>
+</html>
+
+ <!--Insercao do javascript para controlo de medias-->
+ <script src="../../js/controlo-media.js"></script>

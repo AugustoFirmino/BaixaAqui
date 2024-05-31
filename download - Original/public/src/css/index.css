@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.formulario{
+
+    background-color: springgreen;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    min-height: 60px;
+    text-align: center;
+    color: black;
+}
+.formulario h3{
+    position: absolute;
+    margin: 20px;
+}
+.formulario ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-28px);
+}
+.formulario ul li a{
+     text-decoration:none;
+     color: black;
+     padding: 12px;
+}
+.formulario ul li{
+     display: inline-flex;
+     color: black;
+     margin: 8px;
+
+    
+}
+.formulario ul li a:hover{
+
+    background-color: white;
+    border-radius: 20px;
+}
+
+.body{
+    margin-top: 80px;
+}
+.body .info{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.body table{
+    position: absolute;
+    background-color: springgreen;
+    top:180px;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    padding: 20px;
+    width: max-content;
+    
+}
+
+.body  table td{
+  
+    padding: 5px 50px;
+    text-align: center;
+    width: max-content;
+  
+}
+.body table #editar{
+    background-color: gold;
+}
+.body table #editar:hover{
+    cursor: pointer;
+}
+.body table #excluir{
+    background-color: red;
+}
+.body table #excluir:hover{
+    cursor: pointer;
+}
+.body table td a{
+    text-decoration: none;
+    color: #fff;
+}
+.body .header{
+    
+    background-color: springgreen;
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    min-height: 60px;
+    text-align: center;
+    color: black;
+}
+.body .header p{
+    margin-top: 20px;
+}
+.btn-active{
+    background-color: #fff;
+    border-radius: 20px;
+   
+}
+#msg{
+    position: absolute;
+    left: 50%;
+    top: 240px;
+    transform: translate(-50%,-50%);
+}
+
+#add{
+    position: absolute;
+    background-color:springgreen; 
+    color: #fff;
+    left: 50%;
+    top: 100px;
+    transform: translate(380px,-50%);
+    padding: 10px;
+}
+#add:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: springgreen;
+    border: 1px solid springgreen;
+}
+
+.login{
+
+    position: absolute;
+    background:#fff;
+    border-radius: 10px;
+    border: 1px solid springgreen;
+    width: 400px;
+    padding: 40px;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login h2{
+    
+    text-align: center;
+    margin-top: -10px;
+}
+.login ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-28px);
+}
+.login ul li a{
+    text-decoration:none;
+    color: black;
+    padding: 12px;
+}
+.login ul li{
+    display: inline-flex;
+    color: black;
+    margin: 8px;
+
+   
+}
+.login ul li a:hover{
+
+   background-color: #000;
+   border-radius: 20px;
+}
+
+.login .box-user{
+    position: relative;
+    color: black;
+}
+.login .box-user input{
+   
+    width: 100%;
+   padding: 10px 0;
+   outline: none;
+   border: 0;
+   background:transparent;
+   border-bottom: 1px solid springgreen;
+   color:black;
+   font-size: 16px;
+   margin-bottom: 30px;
+}
+.login .box-user label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    padding: 10px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+     margin: 10px;
+     margin-left: 0;
+}
+.login .box-user input:focus~label,
+.login .box-user input:valid~label
+{
+    top: -40px;
+    left: 0;
+    color: #172032;
+    font-size: 12pt;
+}
+.forget{
+    font-size: 12px;
+    color: #5b6b8b;
+    float: right;
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 12px 20px;
+    color: springgreen;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin-top: 20px;
+    overflow: hidden;/*serve para esconder as as partes das linhas infinitas*/
+}
+.btn:hover{
+    background:springgreen;
+    border-radius: 5px;
+    color: #172032;
+}
+.btn span{
+    position: absolute;
+    display: block;
+}
+.btn span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 4px;
+    background:linear-gradient(90deg,transparent,springgreen);
+    animation: btn1  1s linear infinite;
+    
+}
+ @keyframes btn1{
+    
+    0%{
+   left:-100%;
+    }
+    50%,
+    100%{
+    left:100%;
+    }
+
+   
+}
+
+.btn span:nth-child(2){
+    top:-100%;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background:linear-gradient(180deg,transparent,springgreen);
+    animation: btn2  1s linear infinite;
+    animation-delay: .10s;
+}
+@keyframes btn2{
+    
+    0%{
+   top:-100%;
+    }
+    50%,
+    100%{
+    top:100%;
+    }
+
+   
+}
+.btn span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height:4px;
+    background:linear-gradient(270deg,transparent,springgreen);
+    animation: btn3  1s linear infinite;
+    animation-delay: .45s;
+}
+@keyframes btn3{
+    
+    0%{
+   right:-100%;
+    }
+    50%,
+    100%{
+    right:100%;
+    }
+
+   
+}
+.btn span:nth-child(4){
+    bottom:-100%;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background:linear-gradient(360deg,transparent,springgreen);
+    animation: btn4  1s linear infinite;
+    animation-delay: .45s;
+}
+
+@keyframes btn4{
+    
+    0%{
+   bottom:-100%;
+    }
+    50%,
+    100%{
+    bottom:100%;
+    }
+
+   
+}
+#mensagem{
+    position: absolute;
+    background-color: springgreen;
+    border-radius: 10px;
+    color: #fff;
+    padding: 14px;
+    text-align: center;
+    width: 500px;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+
+ #sair{
+    position: absolute;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 445px;
+    margin-top: -26px;
+    padding-left: 14px;
+    padding-right: 14px;
+ }
+ #sair:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: red;
+ }
+ #fechar_cadastro{
+
+   position: absolute;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 385px;
+    margin-top: -25px;
+    padding-left: 14px;
+    padding-right: 14px;
+ }
+ #fechar_cadastro:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: red;
+ }
+ #fechar_cadastro:active{
+    cursor: pointer;
+    background-color: red;
+    color:#fff;
+ }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/registro.css">
+    <title>Download</title>
+    <script src="../../js/criar_conta.js" defer></script>
+</head>
+<body>
+    
+
+
+    <form action="" id="login" class="login">
+
+         <h2>Registra-se Aqui</h2>
+         <div class="box-user">
+            <input type="text" name="nome" id="nome"  onclick="fecharMensagem()" required>
+            <label for="nome">Nome</label>
+         </div>
+         <div class="box-user">
+            <input type="date" name="nascimento" id="nascimento" onclick="fecharMensagem()" required>
+            <label for="nascimento">Nascimento</label>
+         </div>
+         <div class="box-user">
+            <input type="tel" name="telefone" id="telefone"  onclick="fecharMensagem()" required>
+            <label for="telefone">Telefone</label>
+         </div>
+         <div class="box-user">
+            <input type="text" name="senha" id="senha"  onclick="fecharMensagem()" required>
+            <label for="senha">Senha</label>
+         </div>
+         <div>
+            <a  href="login.html"  class="forget">Fazer Login</a>
+        
+       </div>
+         
+         <a href="#" class="btn"    onclick="Registar()">
+           
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+           Registar
+         </a>
+
+       
+    </form>
+  
+
+    <div id="mensagem">
+      <p id="ms"></p>
+      <p id="sair" onclick="fecharMensagem()">x</p>
+    </div>
+</body>
+
+</html>
+

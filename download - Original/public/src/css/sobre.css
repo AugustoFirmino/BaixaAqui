@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.btn-active{
+    background-color: white;
+    border-radius: 20px;
+}
+.input-pesquisa{
+    border: 2px solid green;
+}
+.formulario{
+
+    background-color: springgreen;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    min-height: 60px;
+    text-align: center;
+    color: black;
+}
+
+.formulario h3{
+    position: absolute;
+    margin: 20px;
+}
+.formulario ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-28px);
+}
+.formulario ul li a{
+     text-decoration:none;
+     color: black;
+     padding: 12px;
+}
+.formulario ul li{
+     display: inline-flex;
+     color: black;
+     margin: 8px;
+
+    
+}
+.formulario ul li a:hover{
+
+    background-color: white;
+    border-radius: 20px;
+}
+
+.body{
+    margin-top: 80px;
+}
+.body .info{
+    text-align: center;
+    margin-top: 50px;
+}
+.body .info #pesquisa{
+    padding: 10px;
+    width: 50%;
+}
+.body .info #btn-pesquisa{
+    background-color: green;
+    border: 2px solid green;
+    padding: 10px;
+    width: 100px;
+    color: white;
+
+}
+.body .info #btn-pesquisa:hover{
+    cursor: pointer;
+    background-color: rgb(38, 155, 38);
+    border: 2px solid rgb(38, 155, 38);
+}
+
+.body .formatos table{
+    position: absolute;
+    background-color: springgreen;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-80px);
+    text-align: center;
+    
+}
+.body .formatos table tr td{
+    background-color: white;
+    padding: 5px;
+    min-width: 245px;
+}
+.body .header{
+    
+    background-color: springgreen;
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    min-height: 60px;
+    text-align: center;
+    color: black;
+}
+.body .header p{
+    margin-top: 20px;
+}
+.servicos{
+    margin-top: 250px;
+    text-align: center;
+}
+.servicos .itens{
+    display:flex;
+
+    
+}
+
+.servicos .itens .item{
+    background-color: springgreen;
+    width:600px;
+    margin:20px;
+    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+     box-shadow: inset 0 0 10px #000;
+     color: #fff;
+}
+.servicos .itens .item h2{
+    color: #000;
+}
+.servicos .itens .item:hover{
+    cursor: pointer;
+}
+.criacao{
+    text-align: center;
+    margin-top: 30px;
+}
+.contactos{
+    margin-top: 40px;
+    text-align: center;
+}
+
+@media(max-width:650px){
+
+.formulario{
+    height: 750px;
+   
+}
+.formulario ul {
+    margin-top: 40px;
+}
+.formulario ul li{
+
+  display: block;
+}
+
+.body .info{
+    margin-top: 400px;
+}
+.body .formatos table{
+    position: absolute;
+    background-color: springgreen;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,300px);
+    text-align: center;
+}
+.formulario ul{
+    width: 100%;
+}
+.formulario ul  li {
+  background-color: white;
+   color: black;
+   margin-top: 20px;
+  
+   padding-top: 10px;
+   padding-bottom:  10px;
+}
+.formulario ul li a{
+    width: 100%;
+}
+.btn-active{
+    background-color: springgreen;
+    border-radius: 0;
+   
+}
+.body .formatos table tr td{
+    background-color: white;
+    padding: 5px;
+    min-width: 50px;
+    font-size: 10px;
+}
+.body .header{
+    
+    background-color: springgreen;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,900px);
+    width: 100%;
+    min-height: 60px;
+    text-align: center;
+    color: black;
+}
+.servicos .itens{
+    display:block;
+  
+    
+}
+.servicos .itens .item{
+    background-color: springgreen;
+    width:250px;
+    margin:20px;
+    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+     box-shadow: inset 0 0 10px #000;
+     color: #fff;
+    margin-left: 70px;
+}
+
+}
+
+
+
+@media(max-width:750px){
+
+    .formulario{
+        height: 750px;
+       
+    }
+    .formulario ul {
+        margin-top: 40px;
+    }
+    .formulario ul li{
+    
+      display: block;
+    }
+    
+    .body .info{
+        margin-top: 400px;
+    }
+    .body .formatos table{
+        position: absolute;
+        background-color: springgreen;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,300px);
+        text-align: center;
+    }
+    .formulario ul{
+        width: 100%;
+    }
+    .formulario ul  li {
+      background-color: white;
+       color: black;
+       margin-top: 20px;
+      
+       padding-top: 10px;
+       padding-bottom:  10px;
+    }
+    .formulario ul li a{
+        width: 100%;
+    }
+    .btn-active{
+        background-color: springgreen;
+        border-radius: 0;
+       
+    }
+    .body .formatos table tr td{
+        background-color: white;
+        padding: 5px;
+        min-width: 120px;
+        font-size: 12px;
+    }
+    .body .header{
+        
+        background-color: springgreen;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%,900px);
+        width: 100%;
+        min-height: 60px;
+        text-align: center;
+        color: black;
+    }
+    .servicos .itens{
+        display:block;
+      
+        
+    }
+    .servicos .itens .item{
+        background-color: springgreen;
+        width:640px;
+        margin:20px;
+        padding: 15px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+         box-shadow: inset 0 0 10px #000;
+         color: #fff;
+        
+    }
+    
+    }

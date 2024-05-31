@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.formulario{
+
+    background-color: springgreen;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    min-height: 60px;
+    text-align: center;
+    color: black;
+}
+
+.formulario ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-28px);
+}
+.formulario h3{
+    position: absolute;
+    margin: 20px;
+}
+.formulario ul li a{
+     text-decoration:none;
+     color: black;
+     padding: 12px;
+}
+.formulario ul li{
+     display: inline-flex;
+     color: black;
+     margin: 8px;
+
+    
+}
+.formulario ul li a:hover{
+
+    background-color: white;
+    border-radius: 20px;
+}
+
+.body{
+    margin-top: 80px;
+}
+.body .info{
+    text-align: center;
+    margin-top: 50px;
+}
+.body .info #pesquisa{
+    padding: 10px;
+    width: 50%;
+}
+.body .info h3{
+    margin-top: 45px;
+}
+.body .info #btn-pesquisa{
+    background-color: green;
+    border: 2px solid green;
+    padding: 10px;
+    width: 100px;
+    color: white;
+
+}
+.body .info #btn-pesquisa:hover{
+    cursor: pointer;
+    background-color: rgb(38, 155, 38);
+    border: 2px solid rgb(38, 155, 38);
+}
+
+.body .formatos table{
+  
+    position: absolute;
+    background-color: springgreen;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50px);
+    text-align: center;
+    margin-top: -20px;
+    
+}
+.body .formatos table tr td{
+    background-color: white;
+    padding: 5px;
+    min-width: 230px;
+}
+.watch{
+    margin-top: 500px;
+    text-align: center;
+}
+.watch i p{
+    margin-top: 12px;
+}
+.watch  table
+{
+    position: absolute;
+    background-color: springgreen;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,400px);
+    text-align: center;
+    margin-top: 30px;
+}
+.watch table tr td{
+    background-color: white;
+    padding: 5px;
+    min-width: 245px;
+}
+.watch table tbody tr td video{
+    width: 200px;
+    height: 200px;
+}
+.body .header{
+    
+    background-color: springgreen;
+    position: absolute;
+    top: 1200px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    min-height: 60px;
+    text-align: center;
+    color: black;
+}
+.body .header p{
+    margin-top: 20px;
+}
+.btn-active{
+    background-color: #fff;
+    border-radius: 20px;
+   
+}

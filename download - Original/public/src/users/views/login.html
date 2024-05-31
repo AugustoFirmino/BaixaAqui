@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="../../css/login.css">
+    <script src="../../js/logar.js" defer></script>
+    <title>Download</title>
+
+   
+</head>
+<body>
+    
+
+
+
+    <form  action="" class="login">
+
+         <h2>Login</h2>
+         <div class="box-user">
+            <input type="text" name="telefone" id="telefone" onclick="fecharMensagem()" required>
+            <label for="telefone">Telefone</label>
+         </div>
+         <div class="box-user">
+            <input type="text" name="senha" id="senha"  onclick="fecharMensagem()" required>
+            <label for="senha">Senha</label>
+         </div>
+         <div>
+            <a href="registro.html" class="forget">Criar Conta</a>
+         </div>
+         <a  class="btn" onclick="logar()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Entrar
+         </a>
+    </form>
+    <div id="mensagem">
+      <p id="ms"></p>
+      <p id="sair" onclick="fecharMensagem()">x</p>
+    </div>
+  
+</body>
+</html>

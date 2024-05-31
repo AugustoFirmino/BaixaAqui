@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/clientes.css">
+    <script src="../../../js/clientes.js" defer></script>
+    <title>Download</title>
+</head>
+<body>
+    
+    <div class="formulario">
+        <h3>Download</h3>
+     <ul>
+      <li><a href="admin.html" >Home</a></li>
+      <li><a href="clientes.html" class="btn-active">Clientes</a></li>
+      <li><a href="formatos.html">Formatos</a></li>
+      <li><a href="desenvolvedores.html ">Desenvolvedores</a></li>
+      <li><a href="medias.html" >Medias</a></li>
+
+     </ul>
+
+
+    </div>
+  <div class="body">
+  <p id="add" onclick="abrir_cadastro()">Adicionar Clientes</p>
+  <p id="msg"></p>
+   <table id="tabela">
+    
+    <thead id="thead">
+
+      <tr id="tr">
+        
+      </tr>
+    </thead>
+      <tbody>
+
+     </tbody>
+
+   </table>
+
+
+  
+
+   <form action="" id="login" class="login">
+    <p id="fechar_cadastro" onclick="fechar_cadastro()">x</p>
+    <h2>Adicionar Cliente</h2>
+    <div class="box-user">
+       <input type="text" name="nome" id="nome"  onclick="fecharMensagem()" required>
+       <label for="nome">Nome</label>
+    </div>
+    <div class="box-user">
+       <input type="date" name="nascimento" id="nascimento" onclick="fecharMensagem()" required>
+       <label for="nascimento">Nascimento</label>
+    </div>
+    <div class="box-user">
+       <input type="number" name="telefone" id="telefone"  onclick="fecharMensagem()" required>
+       <label for="telefone">Telefone</label>
+    </div>
+    <div class="box-user">
+       <input type="text" name="senha" id="senha"  onclick="fecharMensagem()" required>
+       <label for="senha">Senha</label>
+    </div>
+  
+    
+    <a href="#" class="btn"    onclick="Registar()">
+      
+       <span></span>
+       <span></span>
+       <span></span>
+       <span></span>
+      Registar
+    </a>
+   
+  
+</form>
+
+
+
+
+<form action="" id="actualizar" class="login">
+  <p id="fechar_cadastro" onclick="fechar_actualizar()">x</p>
+  <h2>Actualizar Dados Clientes</h2>
+  <div class="box-user">
+     <input type="text" name="nome" id="nome"  onclick="fecharMensagem()" required>
+     <label for="nome">Nome</label>
+  </div>
+  <div class="box-user">
+     <input type="date" name="nascimento" id="nascimento" onclick="fecharMensagem()" required>
+     <label for="nascimento">Nascimento</label>
+  </div>
+  <div class="box-user">
+     <input type="number" name="telefone" id="telefone"  onclick="fecharMensagem()" required>
+     <label for="telefone">Telefone</label>
+  </div>
+  <div class="box-user">
+     <input type="text" name="senha" id="senha"  onclick="fecharMensagem()" required>
+     <label for="senha">Senha</label>
+  </div>
+
+  
+  <a href="#" class="btn"    onclick=" Update_Cliente(postID);">
+    
+     <span></span>
+     <span></span>
+     <span></span>
+     <span></span>
+   Actualizar Dados
+  </a>
+ 
+
+</form>
+
+
+
+<div id="mensagem">
+ <p id="ms"></p>
+ <p id="sair" onclick="fecharMensagem()">x</p>
+</div>
+  
+ 
+    <div class="header">
+        <p>Todos Direitos Reservados pela DEV-WEB 2024</p>
+    </div>
+  </div>
+
+
+</body>
+</html>

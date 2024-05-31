@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/update_cliente.css">
+    <script src="../../../js/update_cliente.js" defer></script>
+    <title>Download</title>
+</head>
+<body>
+    <form action=""  class="login">
+
+        <h2>Actualizar dados</h2>
+        <div class="box-user">
+           <input type="text" name="nome" id="nome"  onclick="fecharMensagem()" required>
+           <label for="nome">Nome</label>
+        </div>
+        <div class="box-user">
+           <input type="date" name="nascimento" id="nascimento" onclick="fecharMensagem()" required>
+           <label for="nascimento">Nascimento</label>
+        </div>
+        <div class="box-user">
+           <input type="tel" name="telefone" id="telefone"  onclick="fecharMensagem()" required>
+           <label for="telefone">Telefone</label>
+        </div>
+        <div class="box-user">
+           <input type="text" name="senha" id="senha"  onclick="fecharMensagem()" required>
+           <label for="senha">Senha</label>
+        </div>
+        <div>
+           <a  href="clientes.html"  class="forget">Clientes</a>
+       
+      </div>
+        
+        <a href="#" class="btn"  id="registar"  onclick="Update_Cliente(postID);">
+          
+           <span></span>
+           <span></span>
+           <span></span>
+           <span></span>
+          Registar
+        </a>
+
+      
+   </form>
+ 
+
+   <div id="mensagem">
+     <p id="ms"></p>
+     <p id="sair" onclick="fecharMensagem()">x</p>
+   </div>
+ 
+</body>
+</html>

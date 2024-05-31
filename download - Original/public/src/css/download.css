@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.formulario{
+
+    background-color: springgreen;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    min-height: 60px;
+    text-align: center;
+    color: black;
+}
+
+.formulario ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-28px);
+}
+.formulario h3{
+    position: absolute;
+    margin: 20px;
+}
+.formulario ul li a{
+     text-decoration:none;
+     color: black;
+     padding: 12px;
+}
+.formulario ul li{
+     display: inline-flex;
+     color: black;
+     margin: 8px;
+    
+}
+.formulario ul li a:hover{
+
+    background-color: white;
+    border-radius: 20px;
+}
+
+.body{
+    margin-top: 80px;
+}
+.body .info{
+    text-align: center;
+    margin-top: 50px;
+}
+.body .info #pesquisa{
+    padding: 10px;
+    width: 50%;
+}
+.body .info #btn-pesquisa{
+    background-color: green;
+    border: 2px solid green;
+    padding: 10px;
+    width: 100px;
+    color: white;
+
+}
+.body .info #btn-pesquisa:hover{
+    cursor: pointer;
+    background-color: rgb(38, 155, 38);
+    border: 2px solid rgb(38, 155, 38);
+}
+
+.body .formatos table{
+    position: absolute;
+    background-color: springgreen;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-150px);
+    text-align: center;
+    margin-top: 720px;
+    
+}
+.body .formatos h3{
+    text-align: center;
+    margin-top: 80px;
+}
+.body .formatos table tr td{
+    background-color: white;
+    padding: 5px;
+    min-width: 400px;
+}
+.body .header{
+    position: absolute;
+    background-color: springgreen;
+  
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,560px);
+    width: 100%;
+    min-height: 60px;
+    text-align: center;
+    color: black;
+}
+.body .header p{
+    margin-top: 20px;
+}
+
+.body  .sugestoes {
+    width: 100%;
+    display: flex;
+  
+}
+.body  .sugestoes h3{
+     color: transparent;
+}
+.body  .sugestoes .itens .video{
+   display: inline-table;
+
+} 
+
+.body  .sugestoes .itens .video button{
+    position: absolute;
+    background-color: springgreen;
+    border: 1px solid springgreen;
+    border-radius: 20px;
+    margin: 50px;
+    margin-top: 0px;
+
+    color: #fff;
+    padding: 10px;
+  
+}
+.body  .sugestoes .itens .video .btn-play{
+    position: absolute;
+    margin-left: 180px;
+}
+.body  .sugestoes .itens .video .btn-play:hover{
+    cursor: pointer;
+}
+.body .sugestoes .itens .video button a{
+    text-decoration: none;
+    color: #fff;
+}
+.body .sugestoes .itens .video button:hover{
+    cursor: pointer;
+}
+.body .sugestoes .itens .video video{
+    width: 400px;
+    margin: 50px;
+}
+.body  .sugestoes .itens .video p{
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.btn-active{
+    background-color: #fff;
+    border-radius: 20px;
+   
+}
